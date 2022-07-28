@@ -271,6 +271,7 @@
     left: 0;
     height: 99%;
     width: 99%;
+    border-left:3px solid orange;
     animation: typing 4s steps(6) infinite;
     background: #000000;
     background: linear-gradient(to right, #151414, #000000);
@@ -285,6 +286,15 @@
 
     100% {
         left: 0;
+    }
+}
+/* Adding a blinking cursor*/
+@keyframes blinking {
+    from {
+        border-color: transparent
+    }
+    to {
+        border-color: orange;
     }
 }
 
