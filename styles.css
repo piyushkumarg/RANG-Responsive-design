@@ -272,7 +272,7 @@
     height: 99%;
     width: 99%;
     border-left:3px solid orange;
-    animation: typing 4s steps(6) infinite;
+    animation: typing 4s steps(6) infinite,blinking 4s steps(6) infinite;
     background: #000000;
     background: linear-gradient(to right, #151414, #000000);
 }
